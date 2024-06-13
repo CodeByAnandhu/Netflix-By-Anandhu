@@ -6,7 +6,7 @@
 .hero .heroBanner{
     z-index: 0;
     width: 100%;
-    height: 105.5%;
+    height: 107%;
     mask-image: linear-gradient(to right , transparent,rgba(0, 0, 0, 0.781) 75%);
     -webkit-mask-image: linear-gradient(to right , transparent, rgb(0, 0, 0) 75%); 
    

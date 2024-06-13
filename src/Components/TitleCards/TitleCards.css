@@ -1,9 +1,19 @@
 .cardItems{
    overflow-x: scroll;
    cursor: pointer;
+   padding-top: 25px;
+   padding-left: 14px;
 }
 
 .cardItems::-webkit-scrollbar{
   
     display: none;
+ }
+
+ .posterCard{
+   transition: transform 0.3s ease;
+ }
+
+ .posterCard:hover{
+   transform: scale(1.1);
  }

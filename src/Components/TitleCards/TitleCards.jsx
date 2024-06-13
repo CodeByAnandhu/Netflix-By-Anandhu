@@ -37,14 +37,14 @@ function TitleCards({title , category}) {
 
   return (
 
-    <div className='flex w-screen bg-transparent flex-col pl-20 gap-3'>
+    <div className='flex w-screen bg-transparent flex-col pl-20'>
       
       <h2 className='text-gray-50 font-bold text-lg'>{title?title:"Popular on Netflix"}</h2>
         
-        <div className='cardItems flex gap-3 mb-10' ref={cardRef}>
+        <div className='cardItems flex gap-3 mb-10 ' ref={cardRef}>
         {
            apiData.map((data , index) => (
-            <Link key={index} to={`/player/${data.id}`} className=' flex-col' >
+            <Link key={index} to={`/player/${data.id}`} className='flex-col posterCard' >
             <img className='h-auto max-w-72 rounded-xl' src={`https://image.tmdb.org/t/p/w500`+data.backdrop_path} alt=""/>
             <p className='mt-2 ml-4 text-gray-200'>{data.original_title}</p>
             </Link>

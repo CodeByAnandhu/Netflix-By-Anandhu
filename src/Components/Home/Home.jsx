@@ -9,7 +9,7 @@ function Home() {
     <div>
        <Navbar/>
       <Hero/>
-      <TitleCards title={'BlockBuster Movies'}  category={'top_rated'}/>
+      <TitleCards title={'Top Rated'}  category={'top_rated'}/>
       <TitleCards title={'Popular'} category={'popular'}/>
       <TitleCards title={'Upcoming'} category={'upcoming'}/>
       <TitleCards title={'Now Playing'} category={'now_playing'}/>
