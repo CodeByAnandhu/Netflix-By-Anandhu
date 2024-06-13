@@ -45,7 +45,6 @@ function Navbar() {
       <span>Children</span>
       <i className="fa-regular fa-bell cursor-pointer text-xl"></i>
       <img className="w-10" src={userAvatar} alt="" />
-      <img className="w-10" src={userAvatar} alt="" />
       <div className="dropdown">
       <i className="fa-solid fa-caret-down cursor-pointer text-lg "></i>
       <p onClick={()=>logout()} className='hidden-content'><i className="fa-solid fa-arrow-right-from-bracket mr-2 ml-2"></i> Sign out of netflix</p>
