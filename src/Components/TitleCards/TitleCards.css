@@ -1,0 +1,9 @@
+.cardItems{
+   overflow-x: scroll;
+   cursor: pointer;
+}
+
+.cardItems::-webkit-scrollbar{
+  
+    display: none;
+ }
