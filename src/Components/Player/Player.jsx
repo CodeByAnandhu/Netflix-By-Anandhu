@@ -38,7 +38,7 @@ function Player() {
   return (
     <div className="h-screen flex flex-col items-center justify-center">
      <i onClick={()=>navigate(-2)} className="fa-solid fa-arrow-left text-2xl text-white absolute left-10  top-10 cursor-pointer"></i>
-     <iframe className=" rounded-lg" src={`https://www.youtube.com/embed/${apiData.key}`} title="trailer" width='90%' height='90%' frameborder="0" allowFullScreen></iframe>
+     <iframe className=" rounded-lg" src={`https://www.youtube.com/embed/${apiData.key ? apiData.key : '1JLUn2DFW4w' }`} title="trailer" width='90%' height='90%' frameborder="0" allowFullScreen></iframe>
      <div className="playerInfo flex items-center justify-around w-full mt-3 text-gray-100">
         <p>{formatDate(apiData.published_at)}</p>
         <p>{apiData.name}</p>
